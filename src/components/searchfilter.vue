@@ -4,7 +4,13 @@
           <div class="input-group margin-bottom_0">
           <input class="input-group-field border_white-6" type="text" v-model="searchTerm" placeholder="Search...">
           <div class="input-group-button">
-            <button type="submit" class="color_primary-4 hover:primary-n3 border_white-6 border_solid border-width_1 padding_3"><i class="fas fa-search"></i></button>
+            <button type="submit" class="color_primary-4 hover:primary-n3 border_white-6 border_solid bw_1 p_2"><i class="fas fa-search"></i></button>
+          </div>
+                    <div class="input-group-button">
+            <button type="submit" class="color_primary-4 hover:primary-n3 border_white-6 border_solid bw_1 p_2"><i class="fas fa-filter"></i></button>
+          </div>
+          <div class="input-group-button">
+            <button type="submit" class="color_primary-4 p-x_3 bg_success hover:back_success-n3 border_white-6 border_solid bw_1 p_2"><i class="fas fa-plus"></i></button>
           </div>
         </div>
       </form>

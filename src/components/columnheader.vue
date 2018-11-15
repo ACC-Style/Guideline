@@ -1,9 +1,8 @@
 <template>
-        <div class="font_1 text_uppercase back_white-8 padding_2 color_white padding-right_4 border-bottom-width_1 border_solid border_primary-n4 font_n1 grid-x full">
-            <div class="cell shrink"><i class="fas fa-file"></i>&nbsp;</div>
-            <div class="cell auto">{{title}}</div>
-            <div class="cell shrink"><i class="fas icon-toggle_plus-minus"></i></div>
-          
+        <div class="font_1 text_uppercase color_white 4 bw-b_1 br_solid bg_primary-n3 br_primary-n4 font_n1 grid-x full">
+            <div class="cell p_3 shrink"><i class="fas" v-bind:class="icon"></i>&nbsp;</div>
+            <div class="cell p_3 p-x_0 auto">{{title}}</div>
+            <div class="cell p_3 shrink br-r_1 br_white br_solid"><i class="fas icon-toggle_chevron-double-left-right"></i></div>
         </div>
 </template>
 
@@ -15,6 +14,10 @@
                  type: String,
                  default: "missing"
              },
+             icon:{
+                 type:String,
+                 default: "fa-file"
+             }
          },
     }
 </script>
