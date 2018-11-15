@@ -9778,22 +9778,22 @@ Styleguide 101.0
 
 .line-height_2,
 .lh_2 {
-  line-height: 1.45;
+  line-height: 1.25;
 }
 
 .line-height_3,
 .lh_3 {
-  line-height: 1.655;
+  line-height: 1.45;
 }
 
 .line-height_4,
 .lh_4 {
-  line-height: 1.75;
+  line-height: 1.655;
 }
 
 .line-height_5,
 .lh_5 {
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .c_primary, .color_primary {
@@ -10314,6 +10314,10 @@ Styleguide 101.0
 }
 
 .font-weight_bold, .font_bold {
+  font-weight: 700 !important;
+}
+
+.font-weight_xbold, .font_xbold {
   font-weight: 900 !important;
 }
 

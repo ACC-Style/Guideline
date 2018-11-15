@@ -1,6 +1,6 @@
 <template>
   <div id="cms" class="cms grid-y cell auto">
-    <div class="cell shrink border_solid border-bottom-width_2 border_secondary-4">
+    <div class="cell shrink border_solid border-bottom-width_2 border_acc-n2">
       <AppHeader></AppHeader>
     </div>
     <div class="body cell auto grid-x ">
@@ -61,7 +61,7 @@
         <SearchFilter></SearchFilter>
         <ListItems :items="objects" :icon="'fa-file'" ></ListItems>
         </div>
-      <div class="cell auto back_secondary_2 texture_light padding_4  overflow scrollbar-mini">
+      <div class="cell auto back_secondary_2 texture_light bg_primary-n4 padding_4  overflow scrollbar-mini">
         <div class="card shadow_2 cell small-6 large-4">
           <div class=" font_slab border-top-left-square color_white font-size_3 padding_4 texture_dust back_secondary">
             <i class="fas fa-badge-check"></i>   References
@@ -69,11 +69,11 @@
           <div class="card-section">
             <FormRec></FormRec>
               <div class="border_solid b_primary-4  bw-t_1 p_4">
-                <h5 class="font_1"><i class="fa icon-toggle_plus-minus"></i> Version History</h5>
+                <h5 class="font_0 font_bold is-active"><i class="fa icon-toggle_plus-minus"></i> Version History</h5>
                 <ul class="no-bullet border_solid bw-t_1 border_black-5">
-                  <li class="hover:back_primary-3 color_secondary hover:color_black border_solid bw-b_1 border_black-7">
+                  <li class="hover:back_primary-3 color_secondary hover:color_black border_solid bw-b_1 border_black-7 font_n1">
                     <div class="grid-x p_2">
-                      <div class="cell auto p-l_4">Name of Editor</div>
+                      <div class="cell auto p-l_4 font_bold">Name of Editor</div>
                       <div class="cell auto font_secondary-2">Date:xx/xx/xxxx</div>
                       <div class="cell auto text-right p-r_4"><i class="fas fa-clock"></i> Revert</div>
                     </div>
