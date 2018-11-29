@@ -97,11 +97,11 @@
             </div>
             <div class="input-space cell auto">
             <select class="m-b_0" name="" id="">
-                    <option class="p_2 line-height_3" style='background:green; height:2rem;'>I</option>
-                    <option  class="p_2 line-height_3" style='background:yellow; height:2rem;'>IIa</option>
-                    <option  class="p_2 line-height_3" style='background:Orange; height:2rem;'>IIIa</option>
-                    <option  class="p_2 line-height_3" style='background:Red; height:2rem;'>III</option>
-                </select>   
+                <option class="p_2 line-height_3" style='background:green; height:2rem;'>I</option>
+                <option  class="p_2 line-height_3" style='background:yellow; height:2rem;'>IIa</option>
+                <option  class="p_2 line-height_3" style='background:Orange; height:2rem;'>IIIa</option>
+                <option  class="p_2 line-height_3" style='background:Red; height:2rem;'>III</option>
+            </select>   
             </div>
         </div>
         <div class="message-holder font_n1">    
@@ -147,11 +147,6 @@
     </div>
     </div>
     <div class="grid-x grid-margin-x">
-
-
-
-
-
         <div class="cell auto small-6">
         <div class="question required m-b_3" v-bind:class="state">
         <label for="input-x" class="font_bold grid-x font_1">     
