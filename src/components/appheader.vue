@@ -10,7 +10,7 @@
                     </li>
                     <li class="hover:underline"><a class="padding_2 c_primary-3" @click="$emit('gotoSection','sectionX')"><i class="fas fa-heading"></i> Esophagectomy, not otherwise specified</a></li>
                     <li  class="hover:underline c_primary-3">
-                    <span class="padding_2"><span class="show-for-sr">Current: <i class="fas fa-fw fa-badge-check"></i> </span> Other mid forceps operation</span>
+                    <span class="padding_2"><span class="show-for-sr">Current: </span><i class="fas fa-fw fa-badge-check"></i>  Other mid forceps operation</span>
                     </li>
                 </ul>
                 </nav>
