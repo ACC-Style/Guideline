@@ -1,4 +1,9 @@
 module.exports = {
-  baseUrl: '/Guildeline',
-  outputDir: 'docs'
+  baseUrl: '/Guideline',
+  outputDir: 'docs',
+  assetsDir: undefined,
+  runtimeCompiler: undefined,
+  productionSourceMap: undefined,
+  parallel: undefined,
+  css: undefined
 }
