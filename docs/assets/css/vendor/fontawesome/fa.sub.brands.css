@@ -7,8 +7,8 @@
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/icons/brandssub.eot");
-  src: url("./assets/icons/brandssub.eot?#iefix") format("embedded-opentype"), url("./assets/icons/brandssub.woff2") format("woff2"), url("./assets/icons/brandssub.woff") format("woff"), url("./assets/icons/brandssub.ttf") format("truetype"), url("./assets/icons/brandssub.svg#fontawesome") format("svg");
+  src: url("../../../assets/icons/brandssub.eot");
+  src: url("../../../assets/icons/brandssub.eot?#iefix") format("embedded-opentype"), url("../../../assets/icons/brandssub.woff2") format("woff2"), url("../../../assets/icons/brandssub.woff") format("woff"), url("../../../assets/icons/brandssub.ttf") format("truetype"), url("../../../assets/icons/brandssub.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
