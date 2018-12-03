@@ -57,6 +57,7 @@
 				<FormGuideline></FormGuideline>
 				<FormRef></FormRef>
 				<FormTable></FormTable>
+				<FormFigure></FormFigure>
 			</div>
 		</div>
 	</div>
@@ -73,6 +74,7 @@ import { mapState } from "vuex";
 import FormRef from "../components/formReferences.vue";
 import FormTable from "../components/formTable.vue";
 import FormGuideline from "../components/formGuideline.vue";
+import FormFigure from "../components/formFigure.vue";
 export default {
 	data() {
 		return {
@@ -89,7 +91,7 @@ export default {
 		ColumnHeader,
 		ListItems,
 		FormRef,
-		FormTable,
+		FormTable,FormFigure,
 		FormGuideline,
 		FilterObject,
 		FilterSection
